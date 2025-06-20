@@ -32,4 +32,11 @@ public class StudentServiceImpl implements StudentService
 		sr.deleteById(id);
 	}
 
+	@Override
+	public Student updateData(Student s, int id) {
+		// TODO Auto-generated method stub
+		return sr.save(s);
+	}
+
+	
 }
