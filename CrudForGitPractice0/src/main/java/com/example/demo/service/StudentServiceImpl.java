@@ -26,4 +26,10 @@ public class StudentServiceImpl implements StudentService
 		return sr.findAll();
 	}
 
+	@Override
+	public void deleteData(int id) {
+		// TODO Auto-generated method stub
+		sr.deleteById(id);
+	}
+
 }
