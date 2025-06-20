@@ -11,4 +11,6 @@ public interface StudentService
 
 	public List<Student> getData();
 
+	public void deleteData(int id);
+
 }
